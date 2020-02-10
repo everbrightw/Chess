@@ -1,0 +1,54 @@
+\hypertarget{classchess_1_1_vampire}{}\doxysection{chess.\+Vampire Class Reference}
+\label{classchess_1_1_vampire}\index{chess.Vampire@{chess.Vampire}}
+Inheritance diagram for chess.\+Vampire\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classchess_1_1_vampire}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classchess_1_1_vampire_a0d72acbb920221875f3f416d90e9d1a0}\label{classchess_1_1_vampire_a0d72acbb920221875f3f416d90e9d1a0}} 
+{\bfseries Vampire} (\mbox{\hyperlink{classchess_1_1_player}{Player}} player, \mbox{\hyperlink{classchess_1_1_square}{Square}} square)
+\item 
+boolean \mbox{\hyperlink{classchess_1_1_vampire_a66f7879697d5b74d62973998df53a985}{move}} (\mbox{\hyperlink{classchess_1_1_board}{Board}} board, \mbox{\hyperlink{classchess_1_1_square}{Square}} dest)
+\item 
+\mbox{\Hypertarget{classchess_1_1_vampire_a7a22f15558ae927cb556eb439819cbf5}\label{classchess_1_1_vampire_a7a22f15558ae927cb556eb439819cbf5}} 
+boolean {\bfseries can\+Move} (\mbox{\hyperlink{classchess_1_1_board}{Board}} board, \mbox{\hyperlink{classchess_1_1_square}{Square}} start, \mbox{\hyperlink{classchess_1_1_square}{Square}} dest)
+\item 
+\mbox{\Hypertarget{classchess_1_1_vampire_acda76d120b36ffbf5b9ffba0fa871300}\label{classchess_1_1_vampire_acda76d120b36ffbf5b9ffba0fa871300}} 
+boolean {\bfseries has\+Piece\+On\+The\+Path} (\mbox{\hyperlink{classchess_1_1_board}{Board}} board, \mbox{\hyperlink{classchess_1_1_square}{Square}} dest)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Custom Chess \mbox{\hyperlink{classchess_1_1_piece}{Piece}} \mbox{\hyperlink{classchess_1_1_vampire}{Vampire}} can move like knight or move to any vertical or horizontal direction 2 square at once. and transform enemy\textquotesingle{}s chess piece into his/her own chess piece after capturing it and move the captured enemy\textquotesingle{}s piece to vampire\textquotesingle{}s original location 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classchess_1_1_vampire_a66f7879697d5b74d62973998df53a985}\label{classchess_1_1_vampire_a66f7879697d5b74d62973998df53a985}} 
+\index{chess.Vampire@{chess.Vampire}!move@{move}}
+\index{move@{move}!chess.Vampire@{chess.Vampire}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily boolean chess.\+Vampire.\+move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classchess_1_1_board}{Board}}}]{board,  }\item[{\mbox{\hyperlink{classchess_1_1_square}{Square}}}]{dest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+moves pieces from it\textquotesingle{}s current square to the destination square after checking child piece\textquotesingle{}s moving rules 
+\begin{DoxyParams}{Parameters}
+{\em board} & chess board \\
+\hline
+{\em dest} & destination square \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if move was successful 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classchess_1_1_piece_a45f94781704dd58ab6d04a00bed2dad5}{chess.\+Piece}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Vampire.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,62 @@
+\hypertarget{classchess_1_1_pawn}{}\doxysection{chess.\+Pawn Class Reference}
+\label{classchess_1_1_pawn}\index{chess.Pawn@{chess.Pawn}}
+Inheritance diagram for chess.\+Pawn\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classchess_1_1_pawn}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classchess_1_1_pawn_a7303e2949993e2ebde731b5aa91f3eff}\label{classchess_1_1_pawn_a7303e2949993e2ebde731b5aa91f3eff}} 
+{\bfseries Pawn} (\mbox{\hyperlink{classchess_1_1_player}{Player}} player, \mbox{\hyperlink{classchess_1_1_square}{Square}} square)
+\item 
+boolean \mbox{\hyperlink{classchess_1_1_pawn_a497aae2bd7a210a6440867edf0ac4f4f}{move}} (\mbox{\hyperlink{classchess_1_1_board}{Board}} board, \mbox{\hyperlink{classchess_1_1_square}{Square}} dest)
+\item 
+\mbox{\Hypertarget{classchess_1_1_pawn_ac1ba8e467a4753aa096faede1413a43d}\label{classchess_1_1_pawn_ac1ba8e467a4753aa096faede1413a43d}} 
+boolean {\bfseries can\+Move} (\mbox{\hyperlink{classchess_1_1_board}{Board}} board, \mbox{\hyperlink{classchess_1_1_square}{Square}} start, \mbox{\hyperlink{classchess_1_1_square}{Square}} dest)
+\item 
+\mbox{\Hypertarget{classchess_1_1_pawn_aaeb1e49f33815beda3df7b844daa62c5}\label{classchess_1_1_pawn_aaeb1e49f33815beda3df7b844daa62c5}} 
+boolean {\bfseries has\+Piece\+On\+The\+Path} (\mbox{\hyperlink{classchess_1_1_board}{Board}} board, \mbox{\hyperlink{classchess_1_1_square}{Square}} dest)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classchess_1_1_pawn_a7457a09ba3fe19e100a16ea269bae122}\label{classchess_1_1_pawn_a7457a09ba3fe19e100a16ea269bae122}} 
+final static String {\bfseries \+\_\+\+N\+A\+ME} = \char`\"{}knight\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This is the \mbox{\hyperlink{classchess_1_1_pawn}{chess.\+Pawn}} object.
+
+From Wikipedia, The pawn may move forward to the unoccupied square immediately in front of it on the same file; or on its first move it may advance two squares along the same file provided both squares are unoccupied; or it may move to a square occupied by an opponent\textquotesingle{}s piece which is diagonally in front of it on an adjacent file, capturing that piece. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classchess_1_1_pawn_a497aae2bd7a210a6440867edf0ac4f4f}\label{classchess_1_1_pawn_a497aae2bd7a210a6440867edf0ac4f4f}} 
+\index{chess.Pawn@{chess.Pawn}!move@{move}}
+\index{move@{move}!chess.Pawn@{chess.Pawn}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily boolean chess.\+Pawn.\+move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classchess_1_1_board}{Board}}}]{board,  }\item[{\mbox{\hyperlink{classchess_1_1_square}{Square}}}]{dest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+moves pieces from it\textquotesingle{}s current square to the destination square after checking child piece\textquotesingle{}s moving rules 
+\begin{DoxyParams}{Parameters}
+{\em board} & chess board \\
+\hline
+{\em dest} & destination square \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if move was successful 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classchess_1_1_piece_a45f94781704dd58ab6d04a00bed2dad5}{chess.\+Piece}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Pawn.\+java\end{DoxyCompactItemize}
